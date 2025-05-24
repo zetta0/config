@@ -1,2 +1,3 @@
 alias copy='xclip -sel clip'
 alias syscopy='tmux show-buffer | copy'
+alias fzfwordlists='find /usr/share/wordlists /usr/share/seclists -type f | fzf'
